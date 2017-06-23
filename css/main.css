@@ -1,0 +1,32 @@
+.two h1{
+  font-size: 20px;
+  color: red;
+  border: solid;
+  width: 35%;
+}
+
+.two h1.styleSwitch{
+  font-size: 30px;
+  color: yellow;
+  border: solid;
+  width: 50%;
+}
+
+.four p{
+  border: solid;
+  background-color: orange;
+  color: white;
+  width: 25%;
+}
+
+.four p.hoverover{
+  border: solid;
+  background-color: green;
+  color: white;
+  width: 25%;
+}
+
+.six p{
+  font-size: 35px;
+  font-weight: bold;
+}
