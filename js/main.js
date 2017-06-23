@@ -1,16 +1,16 @@
-$(".A").click(function(){
-  $("img").show();
-});
+$(document).ready(function(){
+  $(".A").click(function(){
+    $("img").show();
+  });
+})
 
 $( ".B").click(function(){
   $("img").hide();
 });
 
-$(document).ready(function(){
-  $(".two h1").dblclick(function(){
-    $(".two h1").toggleClass("styleSwitch");
+$(".two h1").dblclick(function(){
+  $(".two h1").toggleClass("styleSwitch");
   });
-});
 
 $(".add").click(function(){
   $("ul").append("<li>Add</li>");
